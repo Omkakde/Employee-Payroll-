@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .header {
+    padding: 15px 0;
+    background-color: #ffffff;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
+  
+  .logo-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .emp-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #82a70c;
+    text-transform: capitalize;
+  }
+  
+  .emp-payroll {
+    color: #42515f;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 80px);
+    background-color: #f7f7f7;
+    padding: 30px 0 10px;
+  }
+  
+  .emp-detail-text {
+   
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    color: #42515f;
+  }
+  
+  .emp-count {
+    background-color: #82a70c;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 26px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .add-button {
+   
+    font-size: 22px;
+    line-height: 29px;
+    color: #ffffff;
+    background-color: #82a70c;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 18px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #6d8d07;
+  }
+  
+  .search {
+    border: 1px solid gray;
+    padding: 5px;
+    margin-left: 2px;
+    border-radius: 5px;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    margin-left: 630px;
+}
+
+.searchIconButton {
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+    padding: 0; 
+}
+
+.searchIcon {
+    height: 30px;
+    margin-left: 9px; }
+
+  
+  .searchAddUser-cnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .table-main {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 18px;
+    min-width: 400px;
+    background-color: #ffffff;
+  }
+  
+  
+  thead {
+    background-color: #42515F ;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  th,
+  td {
+    padding: 12px 15px;
+    text-align: center;
+  }
+  
+  tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  td {
+    font-size: 16px;
+    color: #3d3d3d;
+  }
+  
+  .dept-label {
+    background-color: #e9fea5;
+    border-radius: 40%;
+    padding: 5px 7px;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .profile-image {
+    margin-right: 30px;
+}
+  .emp-info {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding: 2px;
+  }
+  
+  .emp-img {
+    border-radius: 50%;
+    height: 37px;
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+ 
+
+
+
+  
+ .edit-button>img{
+  width: 17px; 
+  height: 18px; 
+ }

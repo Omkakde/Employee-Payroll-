@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/EmployeePayrollDashbord.css">
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Dashbord</title>
+</head>
+<body>
+  <header class="header-content header">
+    <div class="logo-content">
+        <a href="../pages/EmployeePayrollDashbord.html">
+            <img src="../assets/logo.png" alt="logo">
+        </a>
+        <div>
+            <span class="emp-text">EMPLOYEE</span><br> 
+            <span class="emp-text emp-payroll">PAYROLL</span>
+        </div>
+    </div>
+</header>
+
+  
+    <div class="main-content">
+        <div class="header-content">
+        <div class="emp-detail-text">
+          Employee Details
+          
+        </div>
+  
+        <div class="searchBar">
+          <input
+              id="search-input"
+              class="search"
+              type="text"
+              placeholder="Search user"
+          />
+          <button id="search-button" class="searchIconButton">
+              <img
+                  class="searchIcon"
+                  src="../assets/icons8-search-50.png"
+                  alt="Search"
+              />
+          </button>
+      </div>
+      
+  
+        <div class="searchAddUser-cnt">
+          <button class="add-button">
+            + Add User
+          </button>
+        </div>
+      </div>
+      <table id="display" class="table">
+        <thead>
+          <tr>
+            
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Department</th>
+            <th>Salary</th>
+            <th>Start Date</th>
+          -`  <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- news users --> 
+          
+        </tbody>
+      </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="..\js\EmployeePayrollDashbord.js" ></script> 
+  </body>
+  
+</html>

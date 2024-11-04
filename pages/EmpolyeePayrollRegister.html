@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="..\css\EmployeePayrollRegister.css">
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header class="header-content header">
+        <div class="logo-content">
+            <a href="../pages/EmployeePayrollDashbord.html">
+                <img src="../assets/logo.png" alt="logo">
+            </a>
+            <div>
+                <span class="emp-text">EMPLOYEE</span><br> 
+                <span class="emp-text emp-payroll">PAYROLL</span>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="form-content">
+            <form class="form">
+                <div class="form-head">Employee Payroll Form</div>
+
+                <div class="row-content">
+                    <span class="label text" for="name">Name</span>
+                    <input type="text" placeholder="Enter Name" id="name" name="name" required />
+                </div>
+
+
+                <div class="row-content">
+                 
+                    <label class="label text" for="gender">Profile images</label>
+                    <div class="profile-radio-content">
+                        <div class="profile-img">
+                            <input type="radio" id="profile1" name="profile" />
+                            <img src="../assets/profile1.png" alt="profile1" />
+                        </div>
+                        <div class="profile-img">
+                            <input type="radio" id="profile2" name="profile" />
+                            <img src="../assets/profile2.png" alt="profile2" />
+                        </div>
+                        <div class="profile-img">
+                            <input type="radio" id="profile3" name="profile" />
+                            <img src="../assets/profile3.png" alt="profile3" />
+                        </div>
+                        <div class="profile-img">
+                            <input type="radio" id="profile4" name="profile" />
+                            <img src="../assets/profile4.png" alt="profile4" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row-content">
+                    <label class="label text" for="gender">Gender</label>
+                    <div>
+                        <input type="radio" name="gender" id="male" value="Male" />
+                        <label class="text" for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="Female" />
+                        <label class="text" for="female">Female</label>
+                    </div>
+                </div>
+
+
+                <div class="row-content">
+                    <span class="label text" for="department">Department</span>
+                    <div class="department-content">
+                        <input class="checkbox" type="checkbox" name="department" id="hr" value="HR" />
+                        <span class="hr">HR</span>
+
+                        <input class="checkbox" type="checkbox" name="department" id="sales" value="Sales" />
+                        <span class="sales">Sales</span>
+
+                        <input class="checkbox" type="checkbox" name="department" id="finance" value="Finance" />
+                        <span class="finance">Finance</span>
+
+                        <input class="checkbox" type="checkbox" name="department" id="engineer" value="Engineer" />
+                        <span class="engineer">Engineer</span>
+
+                        <input class="checkbox" type="checkbox" name="department" id="others" value="Others" />
+                        <span class="others">Others</span>
+                    </div>
+                </div>
+
+
+
+                <div class="row-content">
+                    <label class="label text" for="salary">Salary</label>
+                    
+                    <select class="salary" id="salary">
+                        <option value="" disabled selected> Select Salary</option>
+                        <option value="10000">10000</option>
+                        <option value="20000">20000</option>
+                        <option value="30000">30000</option>
+                        <option value="40000">40000</option>
+                        <option value="50000">50000</option>
+                        <option value="60000">60000</option>
+                    </select>
+                </div>
+
+                <div class="row-content">
+                    <label class="label text" for="date">Start Date</label>
+                    <div id="startdate">
+                        <div class="date-options" id="day">
+                            <select name="start_day"  class="Date-Block" clarequired>
+                                <option value="" disabled selected>Day</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+
+                            <select name="start_month" class="Date-Block" required>
+                                <option value="" disabled selected>Month</option>
+                                <option value="January">January</option>
+                                <option value="February">February</option>
+                                <option value="March">March</option>
+                            </select>
+
+                            <select name="start_year" class="Date-Block"  required>
+                                <option value="" disabled selected>Year</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-content">
+                    <label class="label text" for="notes">Notes</label>
+                    <textarea id="notes" class="input notes" name="Notes"></textarea>
+                </div>
+                
+
+                <div class="buttonParent">
+                    <div class="cancel-container">
+                        <button class="cancelButton" id="cancelButton">Cancel</button>
+                    </div>
+                    <div class="submit-reset-container">
+                        <button type="submit" class="button submitButton" id="submitButton">Submit</button>
+                        <button type="reset" class="resetButton button" id="resetButton">Reset</button>
+                    </div>
+                </div>
+                
+
+            </form>
+        </div>
+    </main>
+    <script src="..\js\EmpolyeePayrollRegister.js" ></script>
+</body>
+
+</html>

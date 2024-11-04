@@ -1,0 +1,43 @@
+{
+  "EmployeeList": [
+    {
+      "id": "86a5"
+    },
+    {
+      "id": "5f47",
+      "name": "Asfdgv",
+      "department": [
+        "111"
+      ],
+      "gender": "xcvbcnv",
+      "salary": "xzcvb",
+      "data": "11zxcv1",
+      "notes": "111",
+      "profile": "./Assets/profile3.png"
+    },
+    {
+      "id": "55c3",
+      "name": "Asfdgv",
+      "department": [
+        "111"
+      ],
+      "gender": "xcvbcnv",
+      "salary": "xzcvb",
+      "data": "11zxcv1",
+      "notes": "111",
+      "profile": "./Assets/profile3.png"
+    },
+    {
+      "id": "10af",
+      "name": "Asfdgv",
+      "department": [
+        "111"
+      ],
+      "gender": "xcvbcnv",
+      "salary": "xzcvb",
+      "data": "11zxcv1",
+      "notes": "111",
+      "profile": "./Assets/profile3.png"
+    }
+  ]
+}
